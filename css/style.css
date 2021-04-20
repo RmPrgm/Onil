@@ -1,0 +1,389 @@
+@import 'Montserrat';
+@import 'Poppins';
+@import 'Roboto';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header__link {
+    margin-left: 114px;
+    font-family: 'Montserrat';
+
+
+    font-size: 16px;
+    line-height: 28px;
+    color: #252B42;
+
+}
+
+.margin__right {
+    margin-right: 0;
+}
+
+.block__padding {
+    padding: 0;
+}
+
+.block__margin {
+    margin: 0;
+}
+
+.header__background {
+    background: url(../img/h-bg.png) no-repeat center center/cover;
+    width: 100%;
+    height: 619px;
+
+}
+
+.header__link:hover {
+    color: #FA4A0C;
+}
+
+.header__p-1 {
+    margin-top: 73px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin-right: 0;
+    line-height: 36px;
+    color: #F7F7F7;
+}
+
+.header__h1 {
+    font-family: 'Poppins';
+
+    font-size: 58px;
+    line-height: 80px;
+    color: white;
+}
+
+.header___p-2 {
+    font-family: 'Montserrat';
+
+    font-size: 24px;
+    line-height: 38px;
+    color: #F7F7F7;
+}
+
+.header__button {
+    padding: 16px 58px;
+    background: transparent;
+    border: 0.75px solid white;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    margin-left: 34px;
+    margin-top: 54px;
+}
+
+.header__button:hover {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-style: none;
+}
+
+.header__iphone1 {}
+
+.header__iphone2 {}
+
+/******** header end *******/
+
+/**************************/
+
+/********* section first start ******/
+.sections__img-shadow{
+    box-shadow: 15px 0px 150px 0px #cfcdcd;
+}
+
+.bordertop {
+    border: 2px solid #E4E4E4;
+    margin-top: 604px;
+}
+
+.section__first,
+.section__second,
+section__third {
+    margin-top: 137px;
+
+}
+
+.section__title {
+    margin-top: 72px;
+    text-align: center;
+}
+
+.section__p1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+}
+
+.section__in-tittle {
+
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+
+}
+
+.section__p2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+
+}
+
+
+
+
+
+/*********sub__section start ******/
+
+.sub__section {
+    background: url(../img/sub__section-bg.png)no-repeat center center/cover;
+margin-top: 147px;
+}
+
+.sub__section-title {
+    font-family: 'Montserrat';   
+    font-size: 40px;
+    color: white;
+    margin-top: 145px;
+
+}
+
+.sub__section-p {
+    font-family: 'Montserrat';   
+    font-size: 24px;
+    color: white;
+
+}
+
+.sub__section-button {
+    padding: 16px 58px;
+    background: transparent;
+    border: 0.75px solid white;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    margin-left: 34px;
+    margin-top: 78px;
+    margin-bottom: 145px;
+}
+
+.sub__section-button:hover {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-style: none;
+}
+
+/********* sub__section end ******/
+
+
+/**********************************/
+
+
+/********* footer start ******/
+
+.footer{
+    padding: 36px 0 53px 0;
+    background: url(../img/);
+}
+.footer_icons{
+    font-size: 36px;
+    color: #FA4A0C;
+    margin-left: 41px;
+}
+.footer__p{
+font-family: 'Roboto';
+
+font-size: 12px;
+line-height: 18px;
+color: #5C5C5C;
+}
+/********* footer end ******/
+
+/**********************************/
+
+
+
+/************ media ****************/
+
+@media(max-width: 942px) {
+    .header__h1 {
+        font-size: 49px
+    }
+}
+@media(max-width:414px){
+    .header__background{
+  background: none;
+  padding: 0 10px;
+    }
+    .header__img{
+        width: 100%;
+    }
+    .header__p-1{
+        color: #737373;
+    }
+    .header__h1{
+        color: #252B42;
+        font-size: 36px;
+        line-height: 42px;
+        padding: 0 15px;
+    }
+    .header__button{
+        border: 0.75px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+    .header__button:hover {
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-style: none;
+        color: white;
+    }
+.header___p-2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+}
+/******* header end ********/
+
+/*******************************/
+
+/******* sections start ********/
+
+.section__first ,.section__second, .section__third{
+    text-align: center;
+}
+.change{
+    order: -1;
+}
+.change__section2{
+    justify-content: center !important; 
+    
+}
+.section__p2{
+    padding: 0px 43px;
+    margin: 29px 0;
+}
+.section__third-p2{
+    margin-top: 49px;
+}
+.section__in-tittle {
+     padding: 0 19px;
+}
+.sections__change{
+    margin-top: -103px;
+}
+
+/******* sections end ********/
+/******************************/
+
+
+/******* sub__section start ********/
+.sub__section{
+   background: none;
+   background: #252B42;
+}
+.sub__section-title{
+    color: white;
+    margin-top: 120px;
+}
+.sub__section-p{
+    color: #BDBDBD;
+}
+.sub__section-button{
+    margin-left: 34px;
+    margin-top: 10px;
+    margin-bottom: 42px;
+}
+
+/******* sub__section end ********/
+
+/******************************/
+
+/******* footer start ********/
+.footer__bg{
+    display: none;
+}
+/******* footer end********/
+
+/******************************/
+
+}
+@media(max-width:720px){
+    .header__background{
+  background: none;
+  padding: 0 10px;
+    }
+    .header__img{
+        width: 100%;
+    }
+    .header__p-1{
+        color: #737373;
+    }
+    .header__h1{
+        color: #252B42;
+        font-size: 36px;
+        line-height: 42px;
+        padding: 0 15px;
+    }
+    .header__button{
+        border: 0.75px solid #FA4A0C;
+        color: #FA4A0C;
+    }
+    .header__button:hover {
+        background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-style: none;
+        color: white;
+    }
+.header___p-2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+}
+/******* header end ********/
+
+/*******************************/
+
+/******* sections start ********/
+
+.section__first ,.section__second, .section__third{
+    text-align: center;
+}
+.change{
+    order: -1;
+}
+.change__section2{
+    justify-content: center !important; 
+    
+}
+.section__p2{
+    padding: 0px 43px;
+    margin: 29px 0;
+}
+.section__third-p2{
+    margin-top: 49px;
+}
+.section__in-tittle {
+     padding: 0 19px;
+}
+.sections__change{
+    margin-top: -103px;
+}
+/******* sections end ********/
+
+}
